@@ -1,0 +1,62 @@
+.cont {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+#input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #363636;
+    font-size: 14px;
+    padding: 5px 0;
+    width: 220px;
+    position: relative;
+}
+    
+#btn, #btn_loc {
+    padding: 5px 0;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background: #f70569;
+    border-radius: 3px;
+    position: relative;
+}
+  
+#btn:hover {
+    background-color: #840439;
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transition: 0.5s;
+}
+
+#btn_loc:hover {
+    background-color: #840439;
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transition: 0.5s;
+}
+
+#chatbox {
+    background-color: rgb(87, 206, 249); 
+    border: 1px solid rgb(87, 206, 249); 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+}
+
+#chatbox :not(:last-child) {
+    border-right: none; 
+}
+
+#chatbox :after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#chatbox :hover {
+    background-color: #f82c5f;
+}
